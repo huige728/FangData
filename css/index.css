@@ -1,0 +1,41 @@
+@charset "utf-8";
+.logo{text-align:center;}
+.logo a{width: 91px;height: 42px;text-indent:-9999px;display: inline-block;background: url(../logo.png) no-repeat;}
+
+.menu {width:1180px;margin:0 auto;}
+.menu ul li {float:left; position:relative;}
+.menu ul li a, .menu ul li a:visited {
+display:block; text-align:center; text-decoration:none; width:195px; height:30px; color:#fff; border:1px solid #fff;border-width:1px 1px 0 0;background:#000; line-height:30px; font-size:12px;}
+.menu ul li ul {display: none;}
+.menu ul li:hover a {color:#fff; background:#e02222;}
+.menu ul li:hover ul {display:block; position:absolute; top:31px; left:0; width:196px;}
+.menu ul li:hover ul li a {display:block; background:#666; color:#fff;}
+.menu ul li:hover ul li a:hover {background:#e02222; color:#fff;}
+
+.feige{text-align:center;font-size:24px;height:100px;line-height:100px;color:#fff;}
+.footer{width:100%; background-color:#000;color:#fff;position:fixed; bottom:0; text-align:center;}
+
+.datePickerBlock{padding-bottom: 10px;padding-left: 10px;}
+.select-city{font-size:14px;height:25px;line-height:25px;vertical-align: middle;}
+.hasDatePicker{font-size:14px;height:15px;line-height:15px;outline:0 none;padding:4px;vertical-align: middle;margin:0 4px;}
+.btn{background-color:#e02222;color:white;cursor:pointer;border:0 none;height:25px;width:65px;vertical-align:middle;}
+.btn:hover{background-color:#bb2413;}
+
+.control-group{border-bottom: 1px solid #eee;margin-left:-10px;margin-right:-10px;}
+.control-group:first-child {margin-top:-10px;}
+.control-label {float:left;display:block;margin-top:10px;margin-bottom:5px;padding-top:5px;text-align:right;width:160px;font-size:14px;line-height:20px;}
+.radio {display: inline-block;margin: 4px 8px 0 0;}
+.add-in{padding:6px;margin-right:10px;} 
+
+.controls {border-left:1px solid #eee;padding:10px;margin-left:180px;}
+.form-actions {background-color:#f5f5f5;margin-bottom:-10px;margin-left:-10px;margin-right:-10px;padding:20px 0 20px 190px;}
+.tableBox{height:600px;border:1px solid #ccc;}
+.tableBox-L{height:600px;}
+.tableBox-R{height:580px;padding:10px;border-left:1px solid #ccc;overflow-y:auto;}
+
+.pageBox {text-align: left;}
+.pageBox a {color: #707070;text-align: center;font-family: Courier New,Arial;font-size: 14px;border:1px solid #ddd;display:inline-block;margin-right:6px;padding: 2px 6px;}
+.pageBox a:hover,.pageBox a:active{background:#e02222;color: #FFFFFF;text-decoration: none;}
+.pageBox .cur { background: #e02222;border: 1px solid #e02222;text-decoration: none;}
+.pageBox a.cur {color: #fff;}
+.cRed{color: Red;}
